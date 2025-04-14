@@ -1,18 +1,16 @@
 public class Operadores {
     public static void main(String[] args) {
 
-    String nomeum = "Eduardo";
-    String nomeDois = "Eduardo";
-       
-    int numero1 = 1;
-    int numero2 = 2;
+        boolean condicao1=true;
+        
+        boolean condicao2=false;
 
-    boolean simNao = numero1 == numero2;
-
-    if(numero1 < numero2) {
-        System.out.println("a nossa condição é verdadeira");
-    }
-
+        if(condicao1 && condicao2){
+            System.out.println("as duas condicoes sao verdadeiras?");
+        }
+        if(condicao1 || condicao2){
+            System.out.println("uma das condições é verdadeira");
+        }
        
         
     }
